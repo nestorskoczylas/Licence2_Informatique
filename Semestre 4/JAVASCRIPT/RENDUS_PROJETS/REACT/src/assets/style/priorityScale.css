@@ -1,0 +1,12 @@
+div.scale {
+  background-color : white;
+  padding : 1px;
+  position: absolute;  /*Ceci a été ajouté */
+  right: 50px;         /*Ceci a été ajouté */
+}
+
+div.scale div {
+  font-size : 10px;
+  display : inline-flex;
+  vertical-align: middle;
+}

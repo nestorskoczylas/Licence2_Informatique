@@ -1,0 +1,13 @@
+div.doneButton {
+  display : inline-block;
+  padding : 4px;
+  margin-left : 5px;
+  color : red;
+  font-weight : bold;
+  float : right;
+}
+
+div.doneButton:hover {
+  transform : scale(2);
+  cursor : pointer;
+}
