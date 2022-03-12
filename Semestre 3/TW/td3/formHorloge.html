@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Horloge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="" />
+    <script src="checkbox.js"></script>
+    <style>
+        form input[name='bg']:disabled {
+            color: lightgrey;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulaire Horloge</h1>
+    </header>
+
+    <form action="horloge.php" method="checkUnsignedInt">
+        <fieldset>
+            <p>Heures : <input type="number" name="hours" min="0" max="23" step="1" /></p>
+            <p>Minutes : <input type="number" name="minutes" min="0" max="59" step="1" /></p>
+            <p>Secondes : <input type="number" name="seconds" min="0" max="59" step="1" /></p>
+            <p>Hands : <input type="color" name="color" /></p>
+            <p>Background : <input type="color" name="bg" disabled="" /><input type="checkbox" id="myCheck" checked="" /></p>
+            <p>Markers : <input type="color" name="mark" /></p>
+            <p><input type="submit" value="OK"></p>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

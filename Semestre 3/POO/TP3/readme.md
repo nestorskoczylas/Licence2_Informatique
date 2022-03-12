@@ -1,0 +1,3 @@
+L'objectif de ce tp est de coder ses première class hors de bluej, apprendre à compiler et écrire des méthode main ainsi que les exécuter.
+Dans le premier exercice nous avons représenté un rectangle avec sa longueur et sa largeur. On y a également codé plusieurs méthodes représentant les différents calculs comme l'aire, le périmètre...
+Dans le deuxième exercice nous avons manipulé les complexes en créant plusieurs méthodes représentant les différents calculs posssibles.

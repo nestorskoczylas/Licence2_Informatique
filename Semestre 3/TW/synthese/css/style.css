@@ -1,0 +1,96 @@
+html,body {
+  padding : 0;
+  margin  : 0;
+  font-family : arial, sans-serif;
+}
+
+header {
+    height: 105px;
+    background-color: #eee;
+    border-bottom: solid 1pt grey;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 2pt;
+}
+
+header h1 {
+    /* margin: auto; */
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+#ident {
+    background-color: #eee;
+    position: absolute;
+    right: 0px;
+    margin: 0;
+    padding: 10px;
+    max-height: 300px;
+    max-width: 250px;
+}
+
+#choix {
+    position: absolute;
+    top: 160px;
+    /* left: 150px; */
+    margin: 0;
+    padding: 15px;
+    max-height: 300px;
+    max-width: 250px;
+}
+
+#carte {
+    position: relative;
+    top: 25px;
+    /* left: 125px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 615px;
+    height: 250px;
+}
+
+ul#liste_communes {
+    position: absolute;
+    top: 415px;
+    left: 0px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+ul#liste_communes>li{
+  list-style: none;
+  padding : 0px 15px;
+}
+
+ul#liste_communes>li:hover{
+  background-color : #eee;  
+}
+
+#details {
+    top: 850px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-height: 300px;
+}
+
+div#details > ul {
+    list-style: none;
+}
+
+footer {
+  margin-top : 20px;
+  padding : 15px;
+}
+
+#details div.map{
+  position : absolute;
+  right : 0; bottom : 0;
+  width : 500px;
+  height : 300px;
+}
